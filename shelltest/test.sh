@@ -1,3 +1,3 @@
 mkdir test
 
-cd test
+cd ~/test
