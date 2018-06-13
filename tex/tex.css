@@ -1,8 +1,5 @@
 div#test{
 	font-size: 50px;
-	width:100px;
-	height:100px;
-	background:#000;
 	animation:romation 2s ease 0s 1 alternate nore running:
 }
 
