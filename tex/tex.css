@@ -1,24 +1,10 @@
-h1#test{
+body{
+  text-align:center;
+  background:#dfdfdf;
+}
+h1{
   text-transform:uppercase;
   font-size:72px;
   font-family:'Verdana';
   padding:30px;
 }
-
-@keyframes romation{
-	0% {
-		transform: scale(.3);
-	}
-
-	50% {
-		transform: scale(.6) rotate(-45deg);
-		background: red;
-	}
-
-	100% {
-		transform: scale(1) rotate(180deg);
-		background: blue;
-	}
-
-}
-
