@@ -14,5 +14,24 @@
 		<a href="sample1.tar.gz">LC</a>
 		<!--<embed src="0-Intro.pdf#page=2" type="application/pdf" width="100%" height="100%">
 		-->
+		<script>
+                document.addEventListener("DOMContentLoaded", function(event) {
+                        let ib = document.getElementById("imagebox");
+                        const maisu =43;//画像の枚数
+                        let html="<div id='imagebox'>";
+                        for(let i=1;i<=maisu;i++){
+                                let u = "";
+                                if(i<10){u="0"}
+				html+="<img src='./tex13/tex.0"+u+i+".png'>";
+                                console.log(html);
+                                if(i===maisu){
+                                        html+="</div>";
+                                        ib.outerHTML=html;
+                                }
+                        }
+                        //ib.outerHTHL=html;
+                        //console.log(html);
+                });
+        </script>
 	</body>
 </html>
