@@ -1,0 +1,98 @@
+html, body{
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic",
+                YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #90CAF9;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #7fffd4;
+}
+
+#profile_wrap{
+
+}
+
+#profile_image_wrap{
+    text-align: center;
+}
+
+#profile_image_wrap img{
+    width: 12rem;
+    height: 12rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    border-radius: 10rem;
+}
+
+#profile_name{
+    margin: .5em 0 0 0;
+    font-size: 3rem;
+    color:#333;
+}
+
+#profile_twitter_id{
+    font-size: 1.7rem;
+    color:#555;
+}
+
+#profile_icons{
+    margin: 3rem;
+}
+
+#profile_icons a{
+    color:#333;
+    font-size: 4rem;
+    margin: .7rem;
+    text-decoration: none;
+}
+
+#profile_comment{
+    font-size: 1.2rem;
+    color:#343434;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 2rem;
+    margin: 1.7rem 0;
+}
+
+.code_str{
+    color: #6A8759;
+}
+
+.code_comma{
+    color: #CC7832;
+}
+
+.code_int{
+    color: #6897BB;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    opacity: .85;
+    width: 30rem;
+    height: 45rem;
+    min-width: 300px;
+    min-height: 500px;
+    box-shadow: .5rem .5rem 1rem .3rem rgba(100, 100, 100, .4);
+    padding: 2rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;
+}
+
+.content_wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

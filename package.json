@@ -1,0 +1,8 @@
+{
+  "name": "try46.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:try46/try46.github.io.git",
+  "author": "try46 <popuman61@gmail.com>",
+  "license": "MIT"
+}
